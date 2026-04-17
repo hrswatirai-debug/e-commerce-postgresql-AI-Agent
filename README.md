@@ -24,14 +24,8 @@ PostgreSQL executes the query
 Results are formatted and returned to the user
 
 🏗️ Architecture
-graph TD
-A[User Input] --> B[n8n Chat Trigger]
-B --> C[AI Agent]
-C --> D[OpenAI Model]
-C --> E[PostgreSQL Tool]
-E --> F[Database]
-F --> C
-C --> G[Response to User]
+<img width="1327" height="917" alt="image" src="https://github.com/user-attachments/assets/7b13dc32-e93c-4c60-bf92-180c36069b3a" />
+
 
 ⚙️ Tech Stack
 n8n – Workflow automation & orchestration
